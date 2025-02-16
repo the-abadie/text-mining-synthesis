@@ -13,7 +13,4 @@ if __name__ == "__main__":
         author_email=__email__,
         packages=find_packages(),
         zip_safe=False,
-        install_requires=[
-            'sympy',
-        ]
     )

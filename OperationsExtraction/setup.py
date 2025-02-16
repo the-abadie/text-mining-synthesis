@@ -6,14 +6,6 @@ setup(name='operations_extractor',
       url='https://github.com/CederGroupHub/OperationsExtraction',
       author='CederGroup(http://ceder.berkeley.edu)',
       packages=find_packages(),
-      install_requires=[
-          'gensim',
-          'keras',
-          'numpy',
-          'scipy',
-          'spacy>=2.0.0,<2.1.0',
-          'tensorflow'
-      ],
       zip_safe=False)
 
 setup(name='conditions_extractor',
@@ -22,9 +14,4 @@ setup(name='conditions_extractor',
       url='https://github.com/CederGroupHub/OperationsExtraction',
       author='CederGroup(http://ceder.berkeley.edu)',
       packages=find_packages(),
-      install_requires=[
-          'numpy',
-          'scipy',
-          'spacy>=2.0.0,<2.1.0',
-      ],
       zip_safe=False)

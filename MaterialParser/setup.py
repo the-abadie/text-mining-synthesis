@@ -6,9 +6,4 @@ setup(name='MaterialParser',
       url='https://github.com/CederGroupHub/MaterialParser',
       author='CederGroup(http://ceder.berkeley.edu)',
       packages=find_packages(),
-      install_requires=[
-          'pubchempy',
-          'regex',
-          'sympy'
-      ],
       zip_safe=False)

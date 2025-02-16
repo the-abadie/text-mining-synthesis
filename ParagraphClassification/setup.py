@@ -14,5 +14,4 @@ if __name__ == "__main__":
         license="MIT License",
         packages=find_packages(),
         zip_safe=False,
-        install_requires=open(os.path.join(cur_dir, './requirements.txt')).readlines()
     )
