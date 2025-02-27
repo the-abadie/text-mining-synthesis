@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+synthesis_classifier/__init__.py
+synthesis_classifier/model.py
+synthesis_classifier/multiprocessing_classifier.py
+synthesis_classifier/pclassifier.py
+synthesis_classifier/utils.py
+synthesis_classifier.egg-info/PKG-INFO
+synthesis_classifier.egg-info/SOURCES.txt
+synthesis_classifier.egg-info/dependency_links.txt
+synthesis_classifier.egg-info/not-zip-safe
+synthesis_classifier.egg-info/top_level.txt
+synthesis_classifier/database/__init__.py
+synthesis_classifier/database/patents.py
+synthesis_classifier/database/synpro.py
