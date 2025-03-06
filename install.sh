@@ -9,7 +9,7 @@ case $pythonVer in
 	*    ) echo Please use a venv with Python 3.9, exiting...; exit 1;;
 esac
 
-pip install -v numpy "tensorflow-addons==0.17.1" tensorflow "protobuf==3.19.6" "transformers==4.11.3" regex pubchempy sympy spacy torch chemdataextractor psutil pymongo torch tqdm scipy gensim
+pip install -v numpy "tensorflow-addons==0.17.1" "tensorflow==2.7.0" "protobuf==3.19.6" "transformers==4.11.3" regex pubchempy sympy spacy torch chemdataextractor psutil pymongo torch tqdm scipy gensim
 
 cd MaterialParser
 echo Attemping MaterialParser install
